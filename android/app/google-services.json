@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "754310410427",
+    "project_id": "fluttrefire",
+    "storage_bucket": "fluttrefire.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754310410427:android:c010eaf7537608614a399e",
+        "android_client_info": {
+          "package_name": "com.example.first_firebase239"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRyak6Yb-tMxm5bkHC8l3RWcSHSrwCB60"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754310410427:android:b8c237add4336d6f4a399e",
+        "android_client_info": {
+          "package_name": "com.example.todo_application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRyak6Yb-tMxm5bkHC8l3RWcSHSrwCB60"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

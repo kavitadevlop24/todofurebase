@@ -3,7 +3,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:todo_application/screens/add_todo.dart';
+import 'package:todo_application/screens/home_page.dart';
 
 class LoginPage extends StatelessWidget {
 
@@ -61,7 +61,7 @@ class LoginPage extends StatelessWidget {
                     ).then((value)async {
                       SharedPreferences prefs = await SharedPreferences.getInstance();
                       prefs.setString(USER_ID, value.user!.uid);
-                      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => TodoPage()));
+                      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => HomePage()));
                     });
 
                   } on FirebaseAuthException catch (e) {

@@ -1,9 +1,8 @@
 
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-
 import 'package:todo_application/firebase_options.dart';
-import 'package:todo_application/screens/signup_page.dart';
+import 'package:todo_application/screens/splash_page.dart';
 
 
 void main() async {
@@ -25,7 +24,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.lightBlue),
         useMaterial3: true,
       ),
-      home: SignupPage(),
+      home: SplashPage(),
     );
   }
 }

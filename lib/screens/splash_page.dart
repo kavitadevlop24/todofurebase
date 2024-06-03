@@ -27,7 +27,7 @@ class _SplashPageState extends State<SplashPage> {
     String? userId = prefs.getString(LoginPage.USER_ID);
     print('User ID:  $userId');
     if(userId !=null){
-      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => const HomePage()));
+      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) =>  HomePage()));
     }else{
       Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => SignupPage()));
     }
